@@ -9,7 +9,8 @@
 .numbError {
     font-weight: 700;
     font-size: 228px;
-    margin: 0;
+    margin-top: 170px;
+    margin-bottom: 66px;
 }
 
 .textError{
@@ -21,4 +22,20 @@
     color: #FF6060;
     margin-top: 140px;
     margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px){
+    .numbError {
+        font-weight: 700;
+        font-size: 96px;
+        margin-top: 170px;
+        margin-bottom: 11px;
+    }
+    .textError {
+        margin-top: 0;
+        font-size: 18px;
+    }.back {
+        margin-top: 133px;        font-size: 14px;
+    }
+    
 }

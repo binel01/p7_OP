@@ -80,6 +80,10 @@
     }
     .about .collapse .collapse-button{
         margin-top: 0 ;
+        font-size: 18px;
+    }
+    .about .collapse .collapse-description {
+        font-size: 16px;
     }
     .lodging .collapse .collapse-button{
         margin: 12px ;
@@ -91,4 +95,10 @@
         font-size: 14px;
         font-weight: 400;
     }
-}    
+}
+
+@media only screen and (max-width: 424px){
+    .about .collapse .collapse-description {
+        padding: 20px 5px 10px 5px;
+    }
+}
