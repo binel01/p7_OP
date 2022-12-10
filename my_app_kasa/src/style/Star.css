@@ -1,0 +1,21 @@
+.star{
+    margin-top: 5px;
+}
+.on {
+    fill: #FF6060;
+    margin: 2px;
+}
+ 
+.off {
+    fill: #e3e3e3;
+    margin: 1px;
+}
+@media only screen and (max-width: 768px){
+.on {
+    height: 15px;
+}
+.off{
+    height: 15px;
+}
+}
+

@@ -1,0 +1,113 @@
+.lodging{
+    margin: 0px 100px;
+}
+
+.lodging h1 {
+    font-size: 36px;
+    margin: 0;
+    line-height: 51.34px;
+}
+
+.lodgingImg{
+    z-index: 1;
+}
+
+.localisation{
+    font-size: 18px;
+    margin: 0;
+    line-height: 25.67px;
+}
+
+.lodgingTag{
+    list-style-type: none;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+}
+
+.lodgingTagItem{
+    font-size: 14px;
+    background-color: #FF6060;
+    color: white;
+    margin: 14px 40px 0px -30px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 115px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: fit-content;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hostInfo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hostName{
+    margin: 0;
+    font-size: 18px;
+    width: 93px;
+    height: 52px;
+    display: flex;
+    width: min-content;
+}
+
+.hostPicture{
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.moreInfo{
+    display: flex;
+    margin: 5px;
+}
+
+.infoEquipments{
+    list-style: none;
+}
+
+@media only screen and (max-width: 992px){
+    .lodging{
+        margin: 0px 40px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .lodging{
+        margin: 0px 20px;
+    }
+    .lodging h1{
+        font-size: 18px;
+        line-height: 25.67px;
+    }
+    .localisation{
+        font-size: 14px;
+    }
+    .hostName{
+        font-size: 12px;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .lodgingInfoHost{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .moreInfo{
+        margin: 0;
+        flex-direction: column;
+    }
+}

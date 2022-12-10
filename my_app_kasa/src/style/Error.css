@@ -1,0 +1,24 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FF6060;
+    text-align: center;
+}
+
+.numbError {
+    font-weight: 700;
+    font-size: 228px;
+    margin: 0;
+}
+
+.textError{
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.back {
+    color: #FF6060;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}

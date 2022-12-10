@@ -1,0 +1,10 @@
+#root {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.Container {
+    width: 100%;
+    max-width: 1240px;
+}
