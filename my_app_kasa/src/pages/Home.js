@@ -1,6 +1,6 @@
 import BannerImg from "../assets/banner.jpg";
 import Banner from "../components/Banner";
-import LodgingCard from "../components/Card";
+import Card from "../components/Card";
 import UseTitle from "../index";
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
         textBanner="Chez vous, partout et ailleurs"
       />
 
-      <LodgingCard />
+      <Card />
     </div>
   );
 }
